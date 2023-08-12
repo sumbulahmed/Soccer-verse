@@ -1,0 +1,58 @@
+nav>.container-fluid>.logo-details>a>.logo_name{
+    font-size: 30px;
+    color: black;
+}
+.nav-item.dropdown .dropdown-toggle::after {
+    display: none;
+}
+/* .navv{
+ background-image: url(./AboutusImage/bannerrbal.jpg_large);
+ background-color: brown;
+ background-size: cover;
+ position: relative;
+ width: 100%;
+ height: 700px;
+ background-repeat: no-repeat;
+  */
+ /* height:500px;
+ width: 100%; */
+
+
+.centered{ 
+    position: absolute;
+    top: 40%;
+    color: white;
+    font-size: 70px;
+    font-weight: bold;
+    left: 20%;
+    transform: translate(-50%, -50%);
+  }
+.nav-link:hover{
+
+    color: black !important;
+    background-color:red;
+   
+}
+@media (max-width: 480px){
+    .navv{
+         width: 100%;
+
+         /* width: 100%; */
+ 
+ } 
+ .centered{
+    left: 50%;
+    top:30%;
+    position: relative;
+
+ }
+ }
+ @media (max-width: 588px){
+    
+ .centered{
+    left: 50%;
+    top:30%;
+    position: relative;
+ }
+ }
+ 
